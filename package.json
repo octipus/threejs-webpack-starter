@@ -1,6 +1,7 @@
 {
   "repository": "#",
   "license": "UNLICENSED",
+  "proxy": "https://octipus.github.io/threejs-webpack-starter",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
@@ -28,6 +29,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-   "proxy": "https://octipus.github.io/threejs-webpack-starter"
+  }
 }
